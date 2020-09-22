@@ -305,7 +305,7 @@ nav {
 .project-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     background-color: #FFF;
     margin-top: -4.5rem;
@@ -316,7 +316,7 @@ nav {
 
 .each-card {
     text-align: center;
-    margin: 0.5rem;
+    margin: 1.2rem 0.5rem;
 }
 
 .card-text {
