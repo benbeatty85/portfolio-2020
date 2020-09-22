@@ -584,7 +584,7 @@ nav {
     .nav-links li a {
         color: white;
         text-decoration: none;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-transform: capitalize;
         position: relative;
     }
@@ -613,11 +613,11 @@ nav {
 
     .header-wrapper h1 {
         letter-spacing: 7px;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .header-wrapper p {
-        font-size: 3rem;
+        font-size: 2rem;
         padding-top: 1rem;
     }
 
@@ -631,7 +631,7 @@ nav {
     }
 
     .about-text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .circle-three {
@@ -655,7 +655,7 @@ nav {
     }
 
     .overlap-text-wrapper h2 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .skills {
@@ -667,11 +667,11 @@ nav {
     }
 
     .individual-skills p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .header-text {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .header-text::after {
@@ -690,13 +690,13 @@ nav {
         text-align: center;
         width: 150px;
         height: 150px;
-        padding: 2em;
+        padding: 2.5em;
         border: 5px solid #f2ed13;
         margin: 10px;
     }
 
     .icon-wrapper i {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .overlap-section-projects {
@@ -704,11 +704,11 @@ nav {
     }
 
     .overlap-text-wrapper-projects h2 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .overlap-text-wrapper-projects p {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 
@@ -738,10 +738,9 @@ nav {
     .project-wrapper-desktop {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
         background-color: #FFF;
-        border-radius: 5px;
+        border-radius: 0px;
         -webkit-box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
         box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
         margin-top: -13rem;
@@ -754,7 +753,7 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         font-size: 1.2rem;
-        padding: 1rem 4rem;
+        padding: 1rem 2.5rem;
         border-radius: 5px;
     }
 
@@ -764,8 +763,8 @@ nav {
     }
 
     .card {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .back {
@@ -818,7 +817,7 @@ nav {
 
     .back-content h3 {
         padding: 2rem 0.5rem;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
 }
