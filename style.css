@@ -135,12 +135,26 @@ nav {
     display: block;
 }
 
+.hello {
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Bungee Shade', cursive;
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    color: #23b58e;
+    z-index: 100;
+}
+
 .about-text {
     text-align: center;
-    padding: 1.5rem;
+    padding: 6rem 1.5rem 1.5rem 1.5rem;
     font-size: 1rem;
     position: relative;
     z-index: 3;
+    color: black;
 }
 
 .circle-one {
@@ -148,9 +162,9 @@ nav {
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
-    background-color: rgba(245, 240, 15, 0.2);
-    top: -10vw;
-    left: -50px;
+    background-color: rgba(245, 240, 15, 0.4);
+    top: -15px;
+    left: -70px;
     z-index: 1;
     overflow: hidden;
 }
@@ -436,7 +450,7 @@ nav {
 
 
     .about {
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
 
     .about-img-wrapper {
@@ -447,15 +461,17 @@ nav {
         flex: 1;
     }
 
+    .about-img {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+    }
+
     .about-text {
         text-align: center;
-        padding: 2rem;
-        font-size: 1rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
+        padding: 5rem 3rem 2rem 3rem;
+        font-size: 1.1rem;
     }
 
     .circle-one {
@@ -463,8 +479,8 @@ nav {
         width: 25vw;
         height: 25vw;
         border-radius: 50%;
-        background-color: rgba(245, 240, 15, 0.2);
-        top: -18vw;
+        background-color: rgba(245, 240, 15, 0.4);
+        top: -18px;
         left: -70px;
         z-index: 1;
         overflow: hidden
@@ -630,8 +646,42 @@ nav {
         margin: 0.8em auto 0;
     }
 
+    .about {
+        flex-direction: row;
+    }
+
+    .about-img {
+        width: 100%;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .circle-one {
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        background-color: rgba(245, 240, 15, 0.4);
+        top: -70px;
+        left: -50px;
+        z-index: 1;
+        overflow: hidden
+    }
+
+    .hello {
+        font-size: 3.5rem;
+        top: 15px;
+        left: 2px;
+    }
+
     .about-text {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        padding: 3rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
     }
 
     .circle-three {
@@ -737,7 +787,7 @@ nav {
 
     .project-wrapper-desktop {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         width: 100%;
         background-color: #FFF;
         border-radius: 0px;
@@ -815,7 +865,7 @@ nav {
 
     .back-content h3 {
         padding: 2rem 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
 }
