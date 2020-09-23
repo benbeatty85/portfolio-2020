@@ -137,7 +137,7 @@ nav {
 
 .hello {
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Bungee Shade', cursive;
     -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
@@ -675,7 +675,7 @@ nav {
     }
 
     .about-text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 3rem;
         position: absolute;
         top: 50%;
