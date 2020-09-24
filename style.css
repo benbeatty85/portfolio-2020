@@ -154,7 +154,6 @@ nav {
     font-size: 1rem;
     position: relative;
     z-index: 3;
-    color: black;
 }
 
 .circle-one {
@@ -349,6 +348,107 @@ nav {
     border-radius: 5px;
 }
 
+
+/*overlap-section-contact*/
+
+
+
+.overlap-section-contact {
+    position: relative;
+    height: 150px;
+    background-color: #23b58e;
+    z-index: 1;
+    margin-top: 2rem;
+}
+
+.overlap-text-wrapper-contact {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.overlap-text-wrapper-contact h2 {
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: 2px;
+    font-size: 2.3rem;
+    color: #f2ed13;
+}
+
+
+/*Contact Me section */
+
+
+.contact {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: -3.5rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
+}
+
+.contact-img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.contact-text {
+    font-size: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.email-phone-wrapper {
+    background-color: #23b58e;
+    padding: 1rem;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.phone::before,
+.email::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0.5rem;
+    color: #f2ed13;
+}
+
+.phone::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f095";
+}
+
+.email::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f2b6";
+}
+
+.contact-button {
+    color: #23b58e;
+    background-color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    margin: 1rem 0 0 0;
+}
+
+
+
 /*Media Queries*/
 
 @media only screen and (max-width: 320px) {
@@ -377,6 +477,8 @@ nav {
     nav {
         height: 10vh;
         background-color: #FFF;
+        position: relative;
+        z-index: 10;
     }
 
     .nav-links {
@@ -471,7 +573,7 @@ nav {
     .about-text {
         text-align: center;
         padding: 5rem 3rem 2rem 3rem;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 
     .circle-one {
@@ -578,6 +680,43 @@ nav {
         width: 300px;
     }
 
+    .overlap-section-contact {
+        height: 200px;
+    }
+
+    .overlap-text-wrapper-contact h2 {
+        font-size: 4rem;
+    }
+
+    .contact {
+        margin-top: -4.5rem;
+    }
+
+    .email-phone-wrapper {
+        padding: 2rem 0.5rem;
+        color: #FFF;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-button {
+        font-size: 1.1rem;
+        padding: 0.8rem 2rem;
+        margin: 0;
+    }
+
+    .contact-img {
+        padding: 2.5rem 2.5rem 1rem 2.5rem;
+    }
+
+    .contact-text {
+        font-size: 1.5rem;
+        padding: 0 2rem 1rem 2rem;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -585,6 +724,7 @@ nav {
     nav {
         height: 10vh;
         background-color: #23b58e;
+        z-index: 0;
     }
 
     .nav-links {
@@ -709,7 +849,7 @@ nav {
     }
 
     .skills {
-        margin-top: -14rem;
+        margin-top: -16rem;
     }
 
     .individual-skills-design {
@@ -866,6 +1006,59 @@ nav {
     .back-content h3 {
         padding: 2rem 0.5rem;
         font-size: 1.5rem;
+    }
+
+    .overlap-section-contact {
+        height: 400px;
+    }
+
+    .overlap-text-wrapper-contact h2 {
+        font-size: 4rem;
+    }
+
+    .contact {
+        flex-direction: row-reverse;
+        margin-top: -16.5rem;
+        align-items: center;
+    }
+
+    .contact-img-wrapper,
+    .contact-text-wrapper {
+        flex: 1;
+    }
+
+    .contact-img {
+        padding: 0;
+    }
+
+    .email-phone-wrapper {
+        background-color: #FFF;
+        padding: 1rem;
+        text-align: center;
+        color: #414141;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    .phone::before,
+    .email::before {
+        padding-right: 0.5rem;
+        color: #23b58e;
+    }
+
+    .contact-text {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+
+    .contact-button {
+        color: #FFF;
+        background-color: #23b58e;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: 0.8rem 2rem;
+        margin: 0;
     }
 
 }
