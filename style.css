@@ -463,8 +463,9 @@ footer {
 }
 
 footer p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
+    padding: 0 1rem;
 }
 
 
@@ -487,6 +488,10 @@ footer p {
 
     .card-button {
         font-size: 0.7rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
     }
 }
 
@@ -735,6 +740,10 @@ footer p {
     .contact-text {
         font-size: 1.5rem;
         padding: 0 2rem 1rem 2rem;
+    }
+
+    footer p {
+        font-size: 1.2rem;
     }
 
 }
