@@ -409,8 +409,12 @@ nav {
     background-color: #23b58e;
     padding: 1rem;
     text-align: center;
-    color: #FFF !important;
     font-size: 1.2rem;
+}
+
+.phone,
+.email {
+    color: #FFF;
 }
 
 .phone::before,
@@ -1067,10 +1071,14 @@ footer p {
         background-color: #FFF;
         padding: 1rem;
         text-align: center;
-        color: #414141;
         font-size: 1.1rem;
         margin-top: 1rem;
         position: relative;
+    }
+
+    .phone,
+    .email {
+        color: #414141;
     }
 
     .phone::before,
