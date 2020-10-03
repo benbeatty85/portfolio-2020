@@ -953,9 +953,14 @@ footer p {
 */
 
     .project-wrapper {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-top: -16.5rem;
     }
+
+    .each-card {
+        margin: 1.2rem 1.5rem;
+    }
+
 
     .card-text {
         font-size: 1.5rem;
