@@ -303,9 +303,11 @@ nav {
     z-index: 3;
 }
 
+/*
 .projects-desktop {
     display: none;
 }
+*/
 
 .card-image {
     height: 120px;
@@ -692,6 +694,9 @@ footer p {
 
     .each-card {
         margin: 2rem 1rem;
+        -webkit-box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
+        box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
+        padding: 1.5rem;
     }
 
     .card-text {
@@ -938,12 +943,29 @@ footer p {
 
     /*Project Section Desktop*/
 
+    /*
     .projects {
         display: none;
     }
 
     .projects-desktop {
         display: block;
+    }
+*/
+
+    .project-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: -16.5rem;
+    }
+
+    .card-text {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    .card-button {
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 
     .projects-desktop {
