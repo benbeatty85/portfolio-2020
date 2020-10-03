@@ -693,19 +693,18 @@ footer p {
     }
 
     .each-card {
-        margin: 2rem 1rem;
         -webkit-box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
         box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
         padding: 1.5rem;
     }
 
     .card-text {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         padding: 1rem 0;
     }
 
     .card-button {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 0.7rem;
     }
 
@@ -959,7 +958,7 @@ footer p {
     }
 
     .card-text {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         padding: 1rem 0;
     }
 
