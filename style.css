@@ -693,8 +693,6 @@ footer p {
     }
 
     .each-card {
-        -webkit-box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
-        box-shadow: 4px 5px 11px 0px rgba(0, 0, 0, 0.36);
         padding: 1.5rem;
     }
 
@@ -963,13 +961,13 @@ footer p {
 
 
     .card-text {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding: 1rem 0;
     }
 
     .card-button {
-        font-size: 1.2rem;
-        padding: 1rem;
+        font-size: 1rem;
+        padding: 0.8rem 3rem;
     }
 
     .projects-desktop {
