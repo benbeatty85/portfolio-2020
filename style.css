@@ -335,7 +335,7 @@ nav {
 }
 
 .card-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 0.6rem 0;
 }
 
@@ -345,7 +345,7 @@ nav {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 0.5rem;
     border-radius: 5px;
 }
@@ -697,7 +697,7 @@ footer p {
     }
 
     .card-text {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         padding: 1rem 0;
     }
 
